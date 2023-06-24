@@ -27,7 +27,7 @@ muscleInputFinder.addEventListener('change', function () {
       var outputDiv = document.getElementById("output");
       outputDiv.innerHTML = "";
       // Loop through the fetched exercise data only first 10 values
-      for (let i = 0; i <= 10; i++) {
+      for (let i = 0;i <= 10;i++) {
 
         var cardDiv = document.createElement("div");
         cardDiv.classList.add("card");
